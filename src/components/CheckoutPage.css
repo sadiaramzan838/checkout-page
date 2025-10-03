@@ -1,0 +1,334 @@
+.checkout-wrapper {
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.checkout-card {
+  background: white;
+  border-radius: 20px;
+}
+
+.left-pane {
+  border-right: 1px solid #eee;
+}
+
+.method-btn {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-weight: 500;
+}
+
+.method-btn.active {
+  background: #3353ea;
+  color: white;
+  border-color: #3353ea;
+}
+
+.pay-btn {
+  background: linear-gradient(90deg, #3353ea, #3353ea);
+  border: none;
+  font-weight: bold;
+}
+.pay-btn:hover {
+  opacity: 0.9;
+}
+.checkout-wrapper {
+  background: #f1f2f6;
+  min-height: 100vh;
+}
+
+.checkout-card {
+  background: white;
+  border-radius: 20px;
+}
+
+.left-pane {
+  border-right: none;
+}
+
+.circle-indicator {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  border: 2px solid #3353ea;
+}
+
+.method-btn {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: #fff;
+  font-weight: 500;
+}
+.method-btn.active {
+  background: #3353ea;
+  color: white;
+  border-color: #3353ea;
+}
+
+.pay-btn {
+  background: linear-gradient(90deg, #3353ea, #3353ea);
+  border: none;
+  font-weight: bold;
+}
+.pay-btn:hover {
+  opacity: 0.9;
+}
+
+.no-flag .flag {
+  display: none !important;
+}
+
+.no-flag .selected-dial-code {
+  display: inline-block !important;
+  font-weight: bold;
+  margin-left: 0;
+  padding-left: 8px;
+}
+/* Control (outer box) */
+.select__control {
+  min-height: 38px !important;
+  height: 38px !important;
+  border-radius: 6px !important;
+  border: 1px solid #ced4da !important;
+  box-shadow: none !important;
+  font-size: 14px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.select__value-container {
+  display: flex !important;
+  align-items: center !important;
+  padding: 0 8px !important;
+  height: 100% !important;
+}
+
+.select__single-value {
+  display: flex !important;
+  align-items: center !important;
+  line-height: 1 !important;
+}
+
+.select__indicators {
+  height: 100% !important;
+  display: flex !important;
+  align-items: center !important;
+}
+.method-btn {
+  border-radius: 8px;
+  font-weight: 500;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+.method-btn.active {
+  background-color: #3353ea;
+  color: white;
+  border-color: #3353ea;
+}
+
+.method-btn:not(.active):hover {
+  background-color: #f8f9fa;
+}
+/* Payment Method Label */
+.form-label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #6c757d;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Payment Buttons */
+.method-btn {
+  border-radius: 6px;
+  font-weight: 500;
+  padding: 8px 12px;
+  font-size: 14px;
+  height: 40px;
+  background-color: #f1f3f5;
+  color: #495057;
+  border: 1px solid #dee2e6;
+  transition: all 0.2s ease-in-out;
+}
+
+.method-btn.active {
+  background-color: #3353ea !important;
+  color: #fff !important;
+  border-color: #3353ea !important;
+}
+
+.method-btn:hover:not(.active) {
+  background-color: #e9ecef;
+}
+
+.info-box {
+  border: 1px solid #eee;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+}
+.info-row {
+  border-bottom: 1px solid #eee;
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+}
+.info-row:last-child {
+  border-bottom: none;
+}
+
+/* select (dial code)  */
+.dialing-select {
+  -webkit-appearance: auto;
+  appearance: auto;
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  padding: 0;
+  margin-right: 8px;
+  width: 64px;
+}
+
+.dialing-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.dialing-number {
+  border: none;
+  background: transparent;
+  padding: 0;
+  font-size: 14px;
+  width: calc(100% - 72px);
+}
+
+.info-row .form-control,
+.info-row .form-select {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.info-row .form-control:focus,
+.info-row .form-select:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* small responsiveness tweak */
+@media (max-width: 576px) {
+  .info-row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .me-3 {
+    margin-right: 0 !important;
+  }
+  .dialing-number {
+    width: 100% !important;
+    margin-top: 6px;
+  }
+}
+.info-row {
+  border-bottom: 1px solid #dee2e6;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.select__control {
+  width: 100% !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+.method-btn {
+  height: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  border: 2px solid #ccc;
+  background-color: #fff;
+  color: #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.method-btn svg {
+  color: #555;
+}
+
+/* 👇 Inactive buttons */
+button.method-btn:not(.active) {
+  border-color: #f4f5fc;
+  background-color: #fff;
+  color: #555;
+}
+
+button.method-btn:not(.active) svg {
+  color: #555; /* grey icon */
+}
+
+/* 👇 Active (selected) button */
+button.method-btn.active {
+  border-color: #3353ea !important;
+  background-color: #f4f5fc !important;
+  color: #3353ea !important;
+}
+
+button.method-btn.active svg {
+  color: #3353ea !important;
+}
+/* Right side mini card */
+.summary-card {
+  background: #f4f5fc;
+  border: 1px solid #f4f5fc;
+  border-radius: 12px;
+  padding: 24px;
+  height: 700px;
+}
+
+/* Headings + text */
+.summary-card h2 {
+  font-size: 28px;
+  margin-bottom: 6px;
+}
+
+.summary-card hr {
+  border-top: 1px solid #eee;
+  margin: 1rem 0;
+}
+.summary-card {
+  background: #f4f5fc;
+  border: 1px solid #f4f5fc;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+/* price styling */
+.price-main {
+  color: #3353ea;
+  font-size: 32px;
+}
+
+.price-decimal {
+  color: #3353ea;
+  font-size: 32px;
+}
+
+.secure-text {
+  color: #28a745;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.summary-card hr {
+  border-top: 1px solid #e6d9d5;
+  margin: 0.8rem 0;
+}
+
+.total-amount {
+  color: #3353ea;
+  font-size: 18px;
+}
